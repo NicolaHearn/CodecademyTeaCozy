@@ -63,11 +63,18 @@ header img {
 
 #teaOfMonth {
 	text-align: center;
+	justify-content: center;
+	margin: 0px 70px;
 }
 .imageContainer {
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
+	justify-content: center;
+
+}
+figure {
+	margin: 15px;
 	justify-content: center;
 }
 
@@ -98,15 +105,20 @@ header img {
 	font-weight: bold;
 	
 }
-footer {
-	
+#contact {
+	display: flex;
+	flex-direction: column;
+	max-width: 1000px;
+	margin: 0 auto;
+	width: 75%;
 	height: 200px;
 	justify-content: center;
 
 }
-#copyright {
-	text-align: left;
-	margin: 0px 20px;
+
+footer {
+	padding:20px;
+	display: flex;
 	justify-content: left;
 
 }
